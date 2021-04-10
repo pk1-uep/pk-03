@@ -66,7 +66,7 @@ public class Employee {
     }
 
 
-    // ********************* Getters & Setters
+    // ********************* Getters & Setters ************************
     public String getFirstName() {
         return firstName;
     }
@@ -102,4 +102,27 @@ public class Employee {
         this.hireYear = hireYear;
     }
 
+    
+    // ********************* Static Getters & Setters ************************    
+    public static double getZus() {
+        return zus;
+    }
+    public static void setZus(double zus) {
+        Employee.zus = zus;
+    }
+
+    public static double getHealth() {
+        return health;
+    }
+    public static void setHealth(double health) {
+        Employee.health = health;
+    }
+
+    public static double getTax() {
+        return tax;
+    }
+    public static void setTax(double tax) {
+        Employee.tax = tax;
+    }
+    
 }
